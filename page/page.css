@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #5C3973;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cabecalho nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+    
+}
+.cabecalho_logo{
+    padding-left: 140px;
+    padding-right: 500px;
+}
+
+.cabecalho_link{
+    color: #FFFBBF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.apresentacao {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 30px auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.apresentacao img{
+    width: 165px;
+    height: 155px;
+    position: absolute;
+    right: 20px; 
+    top: 119px;
+}
+
+.apresentacao h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5C3973;
+}
+
+.apresentacao p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5C3973;
+}
+
+
+.historia {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.historia h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #5C3973;
+}
+
+.historia p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    color: #5C3973;
+}
+
+.historia img {
+    width: 165px;
+    height: 155px;
+    position: absolute;
+    left: 20px; 
+    top: 119px;
+}
+
+
+.fundador {
+    position: relative; 
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.fundador h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #5C3973;
+}
+
+.fundador p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #5C3973;
+}
+
+
+.funcionamento {
+    position: relative;
+    width: 1241px;
+    height: 262px;
+    margin: 0 auto;
+    background: #FFF2D6;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.funcionamento h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #5C3973;
+}
+
+.funcionamento p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #5C3973;
+}
+
+.funcionamento img {
+    width: 165px;
+    height: 155px;
+    position: absolute;
+    right: 20px; 
+    top: 119px;
+}
+
+
+.rodape {
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.rodape{
+    display: flex;
+    background-color: #5C3973;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFF;
+}
+.rodape_link{
+    padding: 0px 10px;
+}
+.rodape_texto{
+    padding-right: 10px;
+}
